@@ -38,3 +38,14 @@ Step 2. Upload nodejs and pm2 packages to the server without internet.
      6. ln -s /usr/local/lib/node_modules/pm2/bin/pm2-runtime /usr/local/bin/pm2-runtime
      
      done.
+     
+ Step 3. install mongodb
+     download mongodb-linux-x86_64-rhel70-3.4.10.tgz @ https://www.mongodb.com/download-center?_ga=2.48853798.1419394692.1517560806-1714444005.1505280691#production
+     
+     1. tar -zxvf mongodb-linux-x86_64-rhel70-3.4.10.tgz
+     2. cd mongodb-linux-x86_64-rhel70-3.4.10
+     3. cp ./bin/* /usr/local/bin/
+     4. mkdir /data/db
+     5. mongod --dbpath /data/db
+     
+     

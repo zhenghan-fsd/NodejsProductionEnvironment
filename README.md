@@ -3,6 +3,7 @@
 Step 1. Prepare package 
 
   node-v6.11.5-linux-x86.tar.xz @ https://nodejs.org/dist/v6.11.5/
+  
   pm2-2.7.1.zip @ https://github.com/Unitech/PM2/releases
   
        1. upload pm2-2.7.1 to a server with internet and npm.

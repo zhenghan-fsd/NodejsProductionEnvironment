@@ -1,16 +1,16 @@
 # -NodeJS-
 
 Step 1. Prepare package 
-     node-v6.11.5-linux-x86.tar.xz @ https://nodejs.org/dist/v6.11.5/
-     
-     pm2-2.7.1.zip @ https://github.com/Unitech/PM2/releases
-         1. upload pm2-2.7.1 to a server with internet and npm.
-         2. unzip pm2-2.7.1
-         3. cd pm2-2.7.1
-         4. npm install
-         5. cd ..
-         6. mv pm2-2.7.1 pm2
-         7. zip -r pm2.zip pm2
+  node-v6.11.5-linux-x86.tar.xz @ https://nodejs.org/dist/v6.11.5/
+
+  pm2-2.7.1.zip @ https://github.com/Unitech/PM2/releases
+    1. upload pm2-2.7.1 to a server with internet and npm.
+    2. unzip pm2-2.7.1
+    3. cd pm2-2.7.1
+    4. npm install
+    5. cd ..
+    6. mv pm2-2.7.1 pm2
+    7. zip -r pm2.zip pm2
          
      now you have both nodejs and pm2 package.
      

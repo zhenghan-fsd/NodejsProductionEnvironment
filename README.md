@@ -50,4 +50,11 @@ Step 2. Upload nodejs and pm2 packages to the server without internet.
      4. mkdir /data/db
      5. mongod --dbpath /data/db
      
+ Step 4. install redis
+     download redis-3.2.11.tar.gz @ https://redis.io/download/releases Old (3.2)
+     
+     1. tar -xvf redis-3.2.11.tar.gz
+     2. cd redis-3.2.11.tar.gz
+     3. make
+     4. make install
      

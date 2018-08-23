@@ -25,7 +25,7 @@ Step 2. Upload nodejs and pm2 packages to the server without internet.
      4. cp -r ./include/node /usr/local/include/
      5. mkdir -p /usr/local/man/man1/
      6. cp ./share/man/man1/node.1 /usr/local/man/man1/
-     7. ./bin/node /usr/local/bin/
+     7. cp ./bin/node /usr/local/bin/
      8. ln -s /usr/local/lib/node_modules/npm/bin/npm-cli.js /usr/local/bin/npm
      
      done.
@@ -57,4 +57,8 @@ Step 2. Upload nodejs and pm2 packages to the server without internet.
      2. cd redis-3.2.11.tar.gz
      3. make
      4. make install
+     
+ Install yarn
+ curl -sL https://dl.yarnpkg.com/rpm/yarn.repo -o /etc/yum.repos.d/yarn.repo
+ yum install yarn
      
